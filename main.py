@@ -36,7 +36,7 @@ def wpm_test(stdscr):
   current_text = []
   wpm = 0
   start_time = time.time()
-  #stdscr.nodelay(True)
+  stdscr.nodelay(True)
 
   while True:
     time_elapsed = max(time.time() 
